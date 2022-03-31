@@ -80,15 +80,13 @@ Screen captures in this lab depict examples and results that may vary slightly f
 
 Open a browser window and enter the URL of your Snowflake 30-day trial environment that was sent with your registration email.
 
-You should see the login screen below. Enter the username and password used for registration.
+You should see the login screen below. Enter the username and password used for registration, then click the Sign in button.
 
-![login screen](assets/3UIStory_1.png)
+![login screen](assets/SnowsightLogin.png)
 
-**Close any Welcome Boxes and Tutorials**
+You should be taken directly to the Worksheets area of the Snowflake user interface.
 
-You may see welcome and helper boxes appear when you log in for the first time. Also an “Enjoy your free trial...” ribbon at the top of the screen. Minimize and close these boxes.
-
-![welcome messages](assets/3UIStory_2.png)
+![snowflake worksheets](assets/SnowflakeUI_Worksheets.png)
 
 ### Navigating the Snowflake UI
 

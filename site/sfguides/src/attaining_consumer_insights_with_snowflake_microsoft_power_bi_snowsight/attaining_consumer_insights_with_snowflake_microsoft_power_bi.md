@@ -90,19 +90,40 @@ You should be taken directly to the Worksheets area of the Snowflake user interf
 
 ### Navigating the Snowflake UI
 
-Let’s get you acquainted with Snowflake! This section covers the basic components of the user interface. We will move left to right from the top of the UI.
+Let’s get you acquainted with Snowflake! This section covers the basic components of the user interface. Let's begin with the navigation bar at the left of the window.
 
-The navigation bar allows you to switch between the different areas of Snowflake:
+The left navigation bar (_left nav_) allows you to switch between the different areas of Snowflake:
 
-![snowflake navbar](assets/3UIStory_3.png)
+![snowflake navbar](assets/NavigationBar.png)
 
-The **Databases** tab shows information about the databases you have created or have permission to access. You can create, clone, drop, or transfer ownership of databases, as well as load data in the UI. Notice that several databases already exist in your environment. However, we will not be using these in this lab.
+The _user Menu_, accessed by clicking the down arrow beside your user name at the top of the left nav bar, allows you to switch account roles, modify user preferences, access Partner Connect, open Snowflake documentation, and sign out of the web interface.
 
-![databases tab](assets/3UIStory_4.png)
+![user menu](assets/UserMenu.png)
 
-The **Shares** tab is where data sharing can be configured to easily and securely share Snowflake tables among separate Snowflake accounts or external users, without having to create a copy of the data. We will cover data sharing in Section 10.
+The _Account Selector_, located at the bottom of the left nav, lets you sign in to other Snowflake accounts. The selector lists accounts that you have previously signed in to.
 
-![shares tab](assets/3UIStory_5.png)
+![account selector](assets/AccountSelector.png)
+
+The **Data** area lets you interact with your Snowflake data:
+- Explore your databases and objects, including tables, functions, views, and more.
+- Share data with other accounts and access data that is shared with you.
+- Use Provider Studio to manage your experience as a Snowflake data provider.
+
+:mag: Notice that several databases already exist in your environment. However, we will not be using these in this lab.
+
+![databases tab](assets/DataNode.png)
+
+The **Private Sharing** area of Snowsight, the Snowflake web interface, lets you:
+
+- View and work with data that others have shared with you.
+- View data that your account has shared with others. 
+- Review requests for data.
+- Manage your data exchanges. 
+- Manage reader accounts.
+
+We will cover data sharing in Section 10.
+
+![shares tab](assets/PrivateSharing.png)
 
 The **Warehouses** tab is where you set up and manage compute resources known as virtual warehouses to load or query data in Snowflake. A warehouse called COMPUTE\_WH (XL) already exists in your environment.
 

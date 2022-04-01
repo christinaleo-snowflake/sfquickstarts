@@ -125,21 +125,57 @@ We will cover data sharing in Section 10.
 
 ![shares tab](assets/PrivateSharing.png)
 
-The **Warehouses** tab is where you set up and manage compute resources known as virtual warehouses to load or query data in Snowflake. A warehouse called COMPUTE\_WH (XL) already exists in your environment.
+The **Admin** area is your Snowflake command center. Use the **Admin** area to
+- Understand your Snowflake usage.
+- Manage Snowflake warehouses.
+- Set up and view details about resource monitors.
+- Manage users and roles.
+- Administer Snowflake accounts in your organization.
+- Administer network policies and monitor session activity.
+- Set up payment and payout methods.
+- Review and accept the Provider and Consumer Terms of Service.
+- Set organization contacts for Snowflake security, privacy, and product notifications.
+- Connect to Snowflake partners to explore extended functionality.
 
-![warehouses tab](assets/3UIStory_6.png)
+![Admin Area](assets/AdminArea.png)
 
-The **Worksheets** tab provides an interface for submitting SQL queries, performing DDL and DML operations, and viewing results as your queries or operations complete. The default Worksheet 1 appears when this tab is accessed.
+In the **Admin** area, the **Warehouses** tab is where you set up and manage compute resources known as virtual warehouses to load or query data in Snowflake. A warehouse called COMPUTE_WH (X-Small) already exists in your environment.
 
-The left pane contains the database objects browser which enables users to explore all databases, schemas, tables, and views accessible by the role selected for a worksheet. The bottom pane displays the results of queries and operations.
+![Warehouses](assets/Warehouses.png)
 
-The various sections of this page can be resized by adjusting their sliders. If during the lab you need more room in the worksheet, collapse the database objects browser in the left pane. Many of the screenshots in this guide will keep this section closed.
+**Worksheets** provide a powerful and versatile method for running SQL queries, as well as performing other Snowflake data loading, definition, and manipulation tasks. The **Worksheets** area is the default landing page for the Snowflake Web interface.
 
-![worksheets tab](assets/3UIStory_7.png)
+![Worksheets Area](assets/WorksheetsArea.png)
+
+The **Worksheets** page includes the following tabs:
+- Recent
+- Shared with me
+- My Worksheets
+- Folders
+
+Each tab includes a worksheets table including the title of the worksheet, when it was last accessed, when it was last updated, and the last role that was associated with the query.
+
+![Worksheets Tabs](assets/WorksheetsTabs.png)
+
+Use **Search**, located in the upper-right corner of the page, to search the names and content of your Snowsight documents, such as Worksheets and Dashboards.
+
+![Worksheets Search](assets/WorksheetsSearch.png)
+
+Use **Worksheet**, located in the upper-right corner of the **Worksheets** page, to create a new worksheet.
+
+![Create New Worksheet](assets/CreateWorksheet.png)
+
+When you create a new query, the name of the worksheet will default to the current date and time. You can then begin to type code in the window.
+
+![New Query](assets/NewQuery.png)
+
+If you click on the query name, just to the right of the **Home** button,  an _Options_ menu will appear. From there, you can rename your query, import code from a file stored on disk or other various management tasks.
+
+![Options Menu](assets/RenameOrImport.png)
 
 At the top left of the default worksheet, to the right of the worksheet tab, click on the downward facing arrow and select Load Script. Browse to the lab\_scripts.sql file you downloaded in the previous section and select Open. All of the SQL commands you need to run for the remainder of this lab will now appear on the new worksheet. Do not run any of the SQL commands yet. We will come back to them later in the lab and execute them one at a time.
 
-![worksheets tab navigation](assets/3UIStory_8.png)
+
 
 Negative
 : **Worksheets vs the UI**

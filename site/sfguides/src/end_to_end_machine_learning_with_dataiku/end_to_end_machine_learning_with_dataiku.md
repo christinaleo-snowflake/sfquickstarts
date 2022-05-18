@@ -13,7 +13,7 @@ tags: Getting Started, Data Science, Data Engineering, Twitter
 
 Duration: 5
 
-This Snowflake Quickstart introduces you to the using Snowflake together with Dataiku Cloud as part of a Machine learning project, and build an end-to-end machine learning solution. This lab will showcase seamless integration of both Snowflake and Dataiku at every stage of ML life cycle. We will also use Snowflake Data Marketplace to enrich the dataset. 
+This Snowflake Quickstart introduces you to using Snowflake together with Dataiku Cloud as part of a Machine learning project, and to building an end-to-end machine learning solution. This lab will showcase seamless integration of both Snowflake and Dataiku at every stage of the ML life cycle. We will also use Snowflake Data Marketplace to enrich the dataset. 
 
 ### Business Problem 
 
